@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.clr{
+    clear: both;
+}
+/* Whatsapp Float */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+.my-float{
+	margin-top:16px;
+}
+.float:hover{
+    color: #373737;
+}
+/* Fee Structure Table */
+.fee-body{
+    background-color:#F9F9F9;
+}
+
+/* Navbar Section */
+.navbar{
+    background-color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #373737;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #005EEB;
+}
+.lg{
+    color: #373737;
+}
+.lg_left{
+    color: #005EEB;
+}
+/* Media Queries For navbar */
+@media only screen and (max-width: 320px) {
+.navbar{
+    padding: 10px;
+}
+}
+@media only screen and (max-width: 280px){
+    .navbar-brand {
+        font-size: 0.9rem;
+    }
+}
+
+/* Landing Page */
+.land-cont{
+    padding: 50px 20px 20px 20px;
+}
+.right img{
+    height: auto;
+    width: 100%;
+}
+.sub_head{
+    letter-spacing: 1px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #919191;
+}
+.main_head{
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #373737;
+}
+.dv_btn{
+    background-color: #005EEB;
+}
+.dv_btn:hover{
+    color: #F9F9F9;
+}
+.dv_btn a{
+    color: #F9F9F9;
+    text-decoration: none;
+}
+/* Media Queries For Landing Page */
+@media only screen and (max-width: 400px) {
+    .land-cont{
+        padding: 20px 20px 20px 20px;
+    }
+    .sub_head{
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+    .main_head{
+        margin: 5px 0px;
+        letter-spacing: 3px;
+        font-size: 25px;
+    }
+    .bnr-img{
+        width:100%;
+    }
+  }
+  @media only screen and (max-width: 320px){
+    .sub_head{
+        font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 280px){
+    .sub_head{
+        font-size: 9.5px;
+    }
+}
+/* Course Section */
+.course_sec{
+    padding: 30px;
+    background-color: #F9F9F9;
+}
+.course_img{
+    width: 100%;
+    height: 250px;
+}
+.course-list li{
+   text-align: left;
+  list-style: none;
+}
+
+/* About Section */
+.about_sec{
+    padding: 30px;
+}
+.about_sec p{
+    color: #373737;
+    letter-spacing: 0.05rem;
+    line-height: 2rem;
+}
+.about_sec ul{
+    color: #373737;
+    letter-spacing: 0.05rem;
+    line-height: 2rem;
+}
+.about_sec cite{
+    letter-spacing: 0.05rem;
+    line-height: 2rem;
+}
+.why-us{
+    padding: 30px;
+    margin-top: 50px;
+}
+.aim-para{
+    padding: 30px;
+    margin-top: 50px;
+}
+.value-para{
+    padding: 30px;
+    margin-top: 50px;
+}
+
+/* Faculty Section */
+.faculty_sec{
+    padding: 30px;
+    background-color: #F9F9F9;
+}
+.faculty_image{
+    width: 100%;
+}
+.faculty_sec, p, ul li{
+    color: #373737;
+    letter-spacing: 0.05rem;
+    line-height: 2rem;
+}
+.faculty_para{
+padding: 30px;
+margin-top: 20px;
+}
+ 
+/* Demo Video Section */
+.demo_vid{
+    padding: 50px;
+}
+ .navlist li a {
+    color: #005EEB;
+    text-decoration: none;
+}
+.nav-tabs .nav-link{
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.nav-tabs .nav-link:hover{
+    border: 1px solid #373737;
+}
+
+/* Contact Section */
+.contact_sec{
+    padding: 30px;
+    background-color: #F9F9F9;
+}
+.contact-para{
+    margin-top: 20px;
+}
+.contact-para .li-a{
+    color: #373737;
+    font-size: 15px;
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+}
+/* media quires for contact section */
+@media only screen and (max-width: 360px) {
+    .contact-para .li-a{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 280px){
+    .contact-para .li-a{
+        font-size: 9.5px;
+    }
+}
+.map-part{
+    margin-top: 20px;
+}
+
+
+/* Footer Section */
+.footer{
+    padding: 10px;
+    color: #F9F9F9;
+    letter-spacing: 0.1rem;
+    background-color: #373737;
+}
+.footer .cp-text{
+    text-align:center;
+    font-size: 12px;
+}
